@@ -1,0 +1,11 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    password: admin
+    url: jdbc:postgresql://localhost:5432/demorestcontroller
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    hibernate:
+      ddl-auto: update
